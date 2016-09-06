@@ -1,1 +1,252 @@
-Hello World
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;
+charset=utf-8">
+    <title>Ming Fang</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="icon" href="http://www.cs.cmu.edu/sites/all/themes/scs2013/favicon.ico">
+</head>
+
+<body>
+<div id="content">
+    <table>
+        <tr>
+            <td><h1>Ming Fang</h1></td>
+            <td>
+                <div id="nav-wrap">
+                    <ul id="nav">
+                    </ul>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <table>
+        <tbody>
+        <tr>
+            <td>
+                Master of Science in Computer Science <br>
+                Research Assistant <br>
+                Carnegie Mellon Database Group <br>
+                School of Computer Science <br>
+                Carnegie Mellon University <br>
+                <b>Email</b>: mingf AT cs DOT cmu DOT edu <br>
+                <b>Github</b>: <a href="https://github.com/mindbergh">https://github.com/mindbergh</a> <br>
+                <br>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <p>
+        I am a master student in School of Computer Science at Carnegie Mellon University. My interest is in building systems for managing and processing Big Data.
+    </p>
+
+
+    <h3>Research Projects:</h3>
+
+    <div class="media">
+        <div class="media-left media-top">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Peloton</h4>
+
+            <p><a href="http://pelotondb.org">http://pelotondb.org</a></p>
+            Worked with a team to build an experimental distributed main memory database designed for supporting both
+            OLTP and OLAP workloads.
+            <ol type="i">
+                <li>Ported PostgreSQL to C++11 to provide a clean and modern code base.</li>
+                <li>Implemented a number of components in Peloton, including query plan mapper from PostgreSQL, query
+                    execution engine and multi-version concurrency control.
+                </li>
+                <li>Led team effort on profiling and optimizing the performance of the system.</li>
+                <li>Maintained a continuous integration server for the project using Jenkins, including setting up
+                    building and testing framework, adding supports for code coverage and documentation.
+                </li>
+                <li>Deployed Spark Streaming and evaluated its capabilities of performing incremental computation for a
+                    number of applications.
+                </li>
+            </ol>
+        </div>
+    </div>
+    <div class="media">
+        <div class="media-left media-top">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Weiss</h4>
+
+            <p><a href="http://awb.pc.cs.cmu.edu">http://awb.pc.cs.cmu.edu</a></p>
+            Developed a system-initiative, plan-based dialogue system that can discusses subjective information with
+            users.
+            <ol type="i">
+                <li>Built a daily processing pipeline in Python for scraping, transforming and loading human discussions
+                    from multiple sources.
+                </li>
+                <li>Designed and implemented the dialogue system as a web-based service with mobile application APIs
+                    using Django.
+                </li>
+                <li>Conducted user study and evaluated the efficacy of the system.</li>
+            </ol>
+        </div>
+    </div>
+    <div class="media">
+        <div class="media-left media-top">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">cuSpark</h4>
+
+            <p><a href="http://www.yaomuyang.com/cuspark/">http://www.yaomuyang.com/cuspark/</a></p>
+            Built a GPU-accelerated, functional parallel data processing framework, inspired by Spark.
+            <ol type="i">
+                <li>Designed and implemented a number of abstract functional primitives for data processing.
+                </li>
+                <li>Developed GPU auto-partitioning mechanisms to allow larger than memory datasets.
+                </li>
+                <li>Implemented logistic regression and k-mean using cuSpark and achieved comparable performance with
+                    Thrust
+                    implementations.
+                </li>
+                <li>Won the 3rd Place out of 74 teams in the 2015 Parallelism Competition at CMU.</li>
+            </ol>
+        </div>
+    </div>
+
+    <h3>Selective Coursework:</h3>
+    <h4>Summer 2014</h4>
+    <ol type="1">
+        <li>15-513 Introduction to Computer Systems
+        </li>
+    </ol>
+
+    <h4>Fall 2014</h4>
+    <ol type="1">
+        <li>15-641 Computer Networks
+        </li>
+        <li>10-601 Machine Learning</li>
+        <li>18-342 Fundamentals of Embedded Systems
+        </li>
+        <li>15-619 Cloud Computing
+        </li>
+    </ol>
+    <h4>Spring 2015</h4>
+    <ol type="1">
+        <li>15-618 Parallel Computer Architecture and Programming
+        </li>
+        <li>15-615 Database Applications</li>
+        <li>15-640 Distributed Systems
+        </li>
+        <li>15-210 Parallel and Sequential Data Structures and Algorithms
+        </li>
+    </ol>
+    <h4>Fall 2015</h4>
+    <ol type="1">
+        <li>15-605 Operating System Design and Implementation
+        </li>
+        <li>15-412 Information Security & Privacy
+        </li>
+    </ol>
+
+
+    <h3>Course Projects:</h3>
+
+    <div class="media">
+        <div class="media-left media-top">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Twitter Analytics</h4>
+            Deployed a web service on Amazon AWS that responses a number of analytical queries for Twitter data using
+            Undertow web framework. Processed 1TB of twitter data using Hadoop MapReduce and HBase with Amazon AWS.
+        </div>
+    </div>
+
+    <div class="media">
+        <div class="media-left media-top">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Liso - An HTTP/1.1 web server</h4>
+            Designed and implemented a HTTP 1.1 web server in C. which supports:
+            <ol type="i">
+                <li>Concurrent connections based on select().
+                </li>
+                <li>Persistent HTTP/HTTPS connections via TLS.
+                </li>
+                <li>CGI interactions.
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="media">
+        <div class="media-left media-top">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Congestion Control with BitTorrent</h4>
+            Implemented a p2p file transfer application on top of UDP with the following features:
+            <ol type="i">
+                <li>Congestion control similar to TCP (slow start and congestion avoidance)
+                </li>
+                <li>Simultaneously download/upload different chunks of a file from/to different peers
+                </li>
+                <li>Discover available chunks via SHA
+                </li>
+                <li>Timeout for potentially crashed peers
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="media">
+        <div class="media-left media-top">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Video CDN</h4>
+            Implemented a video content distribution network and ran simulations on different network topologies. The
+            CDN includes:
+            <ol type="i">
+                <li>A proxy that is able to adaptively select bit-rate according to network throughput.
+                </li>
+                <li>A simple DNS server supporting load balancing. The algorithms for load balancing includes Round
+                    Robin and OSPF.
+                </li>
+                <li>An accompanying DNS resolution library
+                </li>
+            </ol>
+        </div>
+    </div>
+
+
+    <div class="media">
+        <div class="media-left media-top">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Gravel - Real-Time Operating System Kernel for ARM processor</h4>
+            Implemented a multitask RTOS Kernel with the following features:
+            <ol type="i">
+                <li>basic system calls (read, write, exit, sleep, time, mutex_lock, mutex_unlock, etc).
+                </li>
+                <li>context switching and rate monotonic task scheduling.
+                </li>
+                <li>timer and interrupt controller drivers.
+                </li>
+                <li>mutexes for concurrency control.
+                </li>
+                <li>priority inheritance using Highest Locker Priority Protocol.</li>
+                <li>a Snake game based on system calls of the implemented RTOS.</li>
+            </ol>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
